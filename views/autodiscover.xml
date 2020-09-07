@@ -9,27 +9,6 @@
 			<AccountType>email</AccountType>
 			<Action>settings</Action>
 
-		<Protocol>
-			<Type>POP3</Type>
-			<Server>{{imap.host}}</Server>
-			<Port>995</Port>
-			<LoginName>{{email}}</LoginName>
-			<DomainRequired>off</DomainRequired>
-			<SPA>off</SPA>
-			<SSL>on</SSL>
-			<AuthRequired>on</AuthRequired>
-			</DomainRequired>
-			</Protocol> <Protocol>
-			<Type>IMAP</Type>
-			<Server>{{imap.host}}</Server>
-			<Port>993</Port>
-			<DomainRequired>off</DomainRequired>
-			<LoginName>{{email}}</LoginName>
-			<SPA>off</SPA>
-			<SSL>on</SSL>
-			<AuthRequired>on</AuthRequired>
-		</Protocol>
-
 			<Protocol>
 				<Type>IMAP</Type>
 				<TTL>1</TTL>
