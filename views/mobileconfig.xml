@@ -8,11 +8,11 @@
 			<key>CalDAVAccountDescription</key>
 			<string>Bigstart Calendar</string>
 			<key>CalDAVHostName</key>
-			<string>caldav.bigstart.net.au</string>
+			<string>cal.bigstart.net.au/</string>
 			<key>CalDAVPort</key>
 			<real>443</real>
 			<key>CalDAVPrincipalURL</key>
-			<string>/caldav/</string>
+			<string></string>
 			<key>CalDAVUseSSL</key>
 			<true/>
 			<key>CalDAVUsername</key>
