@@ -2,25 +2,23 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>HasRemovalPasscode</key>
-	<false/>
 	<key>PayloadContent</key>
 	<array>
 		<dict>
 			<key>CalDAVAccountDescription</key>
-			<string>BIGSTART CAL</string>
+			<string>Bigstart Calendar</string>
 			<key>CalDAVHostName</key>
-			<string>cal.bigstart.net.au</string>
+			<string>{{domain}}</string>
 			<key>CalDAVPort</key>
 			<real>443</real>
 			<key>CalDAVPrincipalURL</key>
-			<string>/caldav/</string>
+			<string>/caldav/.../</string>
 			<key>CalDAVUseSSL</key>
 			<true/>
 			<key>PayloadDescription</key>
 			<string>CalDAV-Account</string>
 			<key>PayloadDisplayName</key>
-			<string>BIGSTART CAL</string>
+			<string>Bigstart Calendar</string>
 			<key>PayloadIdentifier</key>
 			<string>com.mailinabox.setup.CalDAV</string>
 			<key>PayloadOrganization</key>
@@ -34,69 +32,63 @@
 		</dict>
 		<dict>
 			<key>EmailAccountDescription</key>
-			<string>{{email}}</string>
-			<key>EmailAccountName</key>
-			<string>{{email}}</string>
+			<string>Bigstart Mail</string>
 			<key>EmailAccountType</key>
 			<string>EmailTypeIMAP</string>
-			<key>EmailAddress</key>
-			<string>{{email}}</string>
 			<key>IncomingMailServerAuthentication</key>
 			<string>EmailAuthPassword</string>
 			<key>IncomingMailServerHostName</key>
 			<string>{{imap.host}}</string>
 			<key>IncomingMailServerPortNumber</key>
-			<integer>{{imap.port}}</integer>
+			<integer>993</integer>
 			<key>IncomingMailServerUseSSL</key>
 			<true/>
-			<key>IncomingMailServerUsername</key>
-			<string>{{email}}</string>
 			<key>OutgoingMailServerAuthentication</key>
 			<string>EmailAuthPassword</string>
 			<key>OutgoingMailServerHostName</key>
 			<string>{{smtp.host}}</string>
 			<key>OutgoingMailServerPortNumber</key>
-			<integer>{{smtp.port}}</integer>
+			<integer>587</integer>
 			<key>OutgoingMailServerUseSSL</key>
 			<true/>
-			<key>OutgoingMailServerUsername</key>
-			<string>{{email}}</string>
 			<key>OutgoingPasswordSameAsIncomingPassword</key>
 			<true/>
 			<key>PayloadDescription</key>
-			<string>Configure Email Settings</string>
+			<string>E-Mail-Account</string>
 			<key>PayloadDisplayName</key>
-			<string>{{email}}</string>
+			<string>IMAP-Account</string>
 			<key>PayloadIdentifier</key>
-			<string>com.tiliq.autodiscover.com.apple.mail.managed.7A981A9E-D5D0-4EF8-87FE-39FD6A506FAC</string>
+			<string>com.mailinabox.setup.E-Mail</string>
+			<key>PayloadOrganization</key>
+			<string></string>
 			<key>PayloadType</key>
 			<string>com.apple.mail.managed</string>
 			<key>PayloadUUID</key>
-			<string>7A981A9E-D5D0-4EF8-87FE-39FD6A506FAC</string>
+			<string>7EE72885-C1FA-467B-A8F0-9CBAB46786A2</string>
 			<key>PayloadVersion</key>
-			<real>1</real>
-			<key>SMIMEEnablePerMessageSwitch</key>
+			<integer>1</integer>
+			<key>PreventAppSheet</key>
+			<false/>
+			<key>PreventMove</key>
 			<false/>
 			<key>SMIMEEnabled</key>
-			<false/>
-			<key>disableMailRecentsSyncing</key>
 			<false/>
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Configure Email Settings</string>
+	<string>Mail &amp; Calendar</string>
 	<key>PayloadDisplayName</key>
-	<string>{{email}}</string>
+	<string>Bigstart</string>
 	<key>PayloadIdentifier</key>
-	<string>com.tiliq.autodiscover</string>
+	<string>com.mailinabox.setup</string>
 	<key>PayloadOrganization</key>
-	<string>{{domain}}</string>
+	<string></string>
 	<key>PayloadRemovalDisallowed</key>
 	<false/>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>48C88203-4DB9-49E8-B593-4831903605A0</string>
+	<string>1BD3B569-B091-479D-9A4C-512C33691263</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
