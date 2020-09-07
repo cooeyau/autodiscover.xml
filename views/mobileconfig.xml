@@ -7,6 +7,32 @@
 	<key>PayloadContent</key>
 	<array>
 		<dict>
+			<key>CalDAVAccountDescription</key>
+			<string>Mail-in-a-box Calendar</string>
+			<key>CalDAVHostName</key>
+			<string>cal.bigstart.net.au</string>
+			<key>CalDAVPort</key>
+			<real>443</real>
+			<key>CalDAVPrincipalURL</key>
+			<string>/caldav/</string>
+			<key>CalDAVUseSSL</key>
+			<true/>
+			<key>PayloadDescription</key>
+			<string>CalDAV-Account</string>
+			<key>PayloadDisplayName</key>
+			<string>CalDAV (Mail-in-a-box Calendar)</string>
+			<key>PayloadIdentifier</key>
+			<string>com.mailinabox.setup.CalDAV</string>
+			<key>PayloadOrganization</key>
+			<string></string>
+			<key>PayloadType</key>
+			<string>com.apple.caldav.account</string>
+			<key>PayloadUUID</key>
+			<string>416E5B04-3D34-4A18-A5BD-7132C57D1DCD</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
 			<key>EmailAccountDescription</key>
 			<string>{{email}}</string>
 			<key>EmailAccountName</key>
