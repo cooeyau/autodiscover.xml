@@ -12,7 +12,7 @@
 			<key>CalDAVPort</key>
 			<real>443</real>
 			<key>CalDAVPrincipalURL</key>
-			<string>cal.bigstart.net.au/caldav/</string>
+			<string>/caldav/</string>
 			<key>CalDAVUseSSL</key>
 			<true/>
 			<key>CalDAVUsername</key>
