@@ -12,6 +12,14 @@
 			"description": "Your default domain",
 			"value": "example.com"
 		},
+		"CALDAV_HOST": {
+			"description": "Your CALDAV Host",
+			"value": "cal.example.com"
+		},
+		"CARDDAV_HOST": {
+			"description": "Your CARDDAV Host",
+			"value": "contacts.example.com"
+		},
 		"IMAP_HOST": {
 			"description": "Your IMAP Host",
 			"value": "imap.example.com"
