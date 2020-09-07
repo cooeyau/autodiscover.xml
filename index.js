@@ -57,7 +57,8 @@ router.get('/email.mobileconfig', function *autoconfig() {
 
 	yield this.render('mobileconfig', {
 		email,
-		domain
+		domain,
+		username
 	});
 });
 
