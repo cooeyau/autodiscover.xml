@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Autodiscover xmlns="http://schemas.microsoft.com/exchange/autodiscover/responseschema/2006">
-	<Response xmlns="http://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a">
+	<Response xmlns="{{schema}}">
 		<User>
 			<DisplayName>{{email}}</DisplayName>
 		</User>
@@ -8,6 +8,27 @@
 		<Account>
 			<AccountType>email</AccountType>
 			<Action>settings</Action>
+
+		<Protocol>
+			<Type>POP3</Type>
+			<Server>{{imap.host}}</Server>
+			<Port>995</Port>
+			<LoginName>{{email}}</LoginName>
+			<DomainRequired>off</DomainRequired>
+			<SPA>off</SPA>
+			<SSL>on</SSL>
+			<AuthRequired>on</AuthRequired>
+			</DomainRequired>
+			</Protocol> <Protocol>
+			<Type>IMAP</Type>
+			<Server>{{imap.host}}</Server>
+			<Port>993</Port>
+			<DomainRequired>off</DomainRequired>
+			<LoginName>{{email}}</LoginName>
+			<SPA>off</SPA>
+			<SSL>on</SSL>
+			<AuthRequired>on</AuthRequired>
+		</Protocol>
 
 			<Protocol>
 				<Type>IMAP</Type>
