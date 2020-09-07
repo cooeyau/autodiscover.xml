@@ -51,6 +51,8 @@
 			<true/>
 			<key>IncomingMailServerUsername</key>
 			<string>{{email}}</string>
+			<key>OutgoingMailServerUsername</key>
+			<string>{{email}}</string>
 			<key>OutgoingMailServerAuthentication</key>
 			<string>EmailAuthPassword</string>
 			<key>OutgoingMailServerHostName</key>
