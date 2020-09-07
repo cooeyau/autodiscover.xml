@@ -50,6 +50,7 @@ router.get('/email.mobileconfig', function *autoconfig() {
 	}
 
 	const domain	= email.split('@').pop();
+	const username	= email.split('@')[0];
 	const filename	= `${domain}.mobileconfig`;
 
 	this.set('Content-Type', 'application/x-apple-aspen-config; charset=utf-8');
@@ -57,8 +58,8 @@ router.get('/email.mobileconfig', function *autoconfig() {
 
 	yield this.render('mobileconfig', {
 		email,
-		domain,
-		username
+		username,
+		domain
 	});
 });
 
