@@ -12,11 +12,11 @@
 			<key>CalDAVPort</key>
 			<real>443</real>
 			<key>CalDAVPrincipalURL</key>
-			<string>/caldav/.../</string>
+			<string>/caldav/</string>
 			<key>CalDAVUseSSL</key>
 			<true/>
 			<key>CalDAVUsername</key>
-            <string>{{username}}</string>
+            <string>{{email}}</string>
 			<key>PayloadDescription</key>
 			<string>CalDAV-Account</string>
 			<key>PayloadDisplayName</key>
