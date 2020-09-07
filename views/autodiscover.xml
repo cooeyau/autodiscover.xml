@@ -18,7 +18,7 @@
 
 				<LoginName>{{email}}</LoginName>
 
-				<DomainRequired>on</DomainRequired>
+				<DomainRequired>off</DomainRequired>
 				<DomainName>{{domain}}</DomainName>
 
 				<SPA>off</SPA>
