@@ -16,7 +16,7 @@
 			<key>CalDAVUseSSL</key>
 			<true/>
 			<key>CalDAVUsername</key>
-            <string>{{email}}</string>
+            <string>{{username}}</string>
 			<key>PayloadDescription</key>
 			<string>CalDAV-Account</string>
 			<key>PayloadDisplayName</key>
