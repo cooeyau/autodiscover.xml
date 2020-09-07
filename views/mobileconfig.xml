@@ -37,20 +37,24 @@
 			<string>{{email}}</string>
 			<key>EmailAccountType</key>
 			<string>EmailTypeIMAP</string>
+			<key>EmailAddress</key>
+			<string>{{email}}</string>
 			<key>IncomingMailServerAuthentication</key>
 			<string>EmailAuthPassword</string>
 			<key>IncomingMailServerHostName</key>
 			<string>{{imap.host}}</string>
 			<key>IncomingMailServerPortNumber</key>
-			<integer>993</integer>
+			<integer>{{imap.port}}</integer>
 			<key>IncomingMailServerUseSSL</key>
 			<true/>
+			<key>IncomingMailServerUsername</key>
+			<string>{{email}}</string>
 			<key>OutgoingMailServerAuthentication</key>
 			<string>EmailAuthPassword</string>
 			<key>OutgoingMailServerHostName</key>
 			<string>{{smtp.host}}</string>
 			<key>OutgoingMailServerPortNumber</key>
-			<integer>587</integer>
+			<integer>{{smtp.port}}</integer>
 			<key>OutgoingMailServerUseSSL</key>
 			<true/>
 			<key>OutgoingPasswordSameAsIncomingPassword</key>
@@ -58,7 +62,7 @@
 			<key>PayloadDescription</key>
 			<string>E-Mail-Account</string>
 			<key>PayloadDisplayName</key>
-			<string>IMAP-Account</string>
+			<string>{{email}}</string>
 			<key>PayloadIdentifier</key>
 			<string>com.mailinabox.setup.E-Mail</string>
 			<key>PayloadOrganization</key>
