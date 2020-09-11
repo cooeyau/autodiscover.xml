@@ -6,7 +6,7 @@
 	<array>
 		<dict>
 			<key>CalDAVAccountDescription</key>
-			<string>Bigstart Calendar</string>
+			<string>Bigstart {{username}} Calendar</string>
 			<key>CalDAVHostName</key>
 			<string>bigstart.net.au</string>
 			<key>CalDAVPort</key>
@@ -34,7 +34,7 @@
 		</dict>
 		<dict>
 			<key>EmailAccountDescription</key>
-			<string>Bigstart Mail</string>
+			<string>Bigstart {{username}} Mail</string>
 			<key>EmailAccountName</key>
 			<string>{{email}}</string>
 			<key>EmailAccountType</key>
@@ -88,7 +88,7 @@
 	<key>PayloadDescription</key>
 	<string>Mail &amp; Calendar</string>
 	<key>PayloadDisplayName</key>
-	<string>Bigstart</string>
+	<string>Bigstart {{username}}</string>
 	<key>PayloadIdentifier</key>
 	<string>com.mailinabox.setup</string>
 	<key>PayloadOrganization</key>
