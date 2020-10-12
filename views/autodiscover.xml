@@ -13,7 +13,7 @@
 				<Type>IMAP</Type>
 				<TTL>1</TTL>
 
-				<Server>{{imap.host}}</Server>
+				<Server>mail.bigstart.com.au</Server>
 				<Port>{{imap.port}}</Port>
 
 				<LoginName>{{email}}</LoginName>
@@ -35,7 +35,7 @@
 				<Type>SMTP</Type>
 				<TTL>1</TTL>
 
-				<Server>{{smtp.host}}</Server>
+				<Server>mail.bigstart.com.au</Server>
 				<Port>{{smtp.port}}</Port>
 
 				<LoginName>{{email}}</LoginName>

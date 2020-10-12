@@ -44,7 +44,7 @@
 			<key>IncomingMailServerAuthentication</key>
 			<string>EmailAuthPassword</string>
 			<key>IncomingMailServerHostName</key>
-			<string>{{imap.host}}</string>
+			<string>mail.bigstart.com.au</string>
 			<key>IncomingMailServerPortNumber</key>
 			<integer>{{imap.port}}</integer>
 			<key>IncomingMailServerUseSSL</key>
@@ -56,7 +56,7 @@
 			<key>OutgoingMailServerAuthentication</key>
 			<string>EmailAuthPassword</string>
 			<key>OutgoingMailServerHostName</key>
-			<string>{{smtp.host}}</string>
+			<string>mail.bigstart.com.au</string>
 			<key>OutgoingMailServerPortNumber</key>
 			<integer>{{smtp.port}}</integer>
 			<key>OutgoingMailServerUseSSL</key>
